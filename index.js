@@ -20,6 +20,8 @@ const inputReciever = document.getElementById("reciever")
 
 function clearInputField(){
     textArea.value = ""
+    inputSender.value = ""
+    inputReciever.value = ""
 }
 
 function appendPostToList(input){
